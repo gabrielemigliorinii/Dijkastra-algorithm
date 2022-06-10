@@ -24,15 +24,17 @@ namespace DijkastraAlgorithm
             Solution st = Algorithm.Dijkstra(DATA.Nodes, "A", "D");
 
             st.Show();
-
+            Console.ReadKey();
+    
+            /*
             int[] array = { 4, 533, 226, 24, 32, 2, 3, 5, 4 };
 
             Algorithm.Quicksort(array, 0, array.Length-1);
 
             foreach (var x in array)
                 Console.WriteLine(x);
-
-            Console.ReadKey();
+            */
+            
         }
     }
 }
